@@ -1,8 +1,19 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Responsive Website
 
-Currently, two official plugins are available:
+This project is a responsive website created based on the provided Figma design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+
+Check out the live demo: [Responsive Website Demo](https://responsive-website-102910.netlify.app)
+
+## Description
+
+The website is designed to be responsive, adapting to various screen sizes and devices. The project uses HTML, CSS with Tailwind CSS for styling, and may include JavaScript for additional interactivity.
+
+## Features
+
+- Responsive design for different screen sizes
+- Follows the design provided in Figma
+- Uses Tailwind CSS for styling
