@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1-primary {
+  @apply text-5xl md:text-6xl font-extrabold leading-[4rem] tracking-wide;
+}
+.h2-primary {
+  @apply text-4xl md:text-5xl font-bold leading-[3.6rem] tracking-wide;
+}
+.h3-primary {
+  @apply text-3xl font-semibold leading-[3.1rem];
+}
+.h4-primary {
+  @apply text-2xl font-semibold;
+}
+
+.p-primary {
+  @apply font-medium leading-8;
+}
+.p-secondary {
+  @apply font-medium leading-8 text-slate-500 text-[0.9rem];
+}
+.p-tert {
+  @apply font-medium leading-8 text-slate-500 text-sm;
+}
+
+.btn-primary {
+  @apply px-4 py-2 rounded-3xl bg-primary-100 text-white;
+}
+
+.animate-type {
+  border-right: 2px solid #333;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(40, end) infinite, blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #333;
+  }
+}
