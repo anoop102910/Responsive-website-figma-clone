@@ -1,5 +1,3 @@
-# React + Vite
-
 # Responsive Website
 
 This project is a responsive website created based on the provided Figma design.
